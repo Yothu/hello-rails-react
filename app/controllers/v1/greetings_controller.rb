@@ -1,3 +1,4 @@
+# Greetings Controller
 class V1::GreetingsController < ApplicationController
   def index
     greeting = Greeting.find(rand(1..Greeting.count))
